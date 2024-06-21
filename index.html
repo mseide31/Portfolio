@@ -1,1 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <title>Marc's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Marc's styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    <script src="Marc's_prop_script.js"></script>
+</head>
+
+<body>
+    <div id="port-global-content-wrapper">
+        <aside id="port-sidebar">
+            <div class="port-sidebar-wrapper">
+                <div class="page-title">
+                    <h1><span class="individual-letter">M</span>arc</h1>
+                </div><!--end page-title-->
+                <div class="nav-menu-wrapper">
+                    <nav>
+                        <ul class="nav-menu">
+                            <li>
+                                <a href="#home" class="port-links">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about" class="port-links">About</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio" class="port-links">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="port-links">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div><!--end nav-menu-wrapper-->
+            </div><!--end port-sidebar-wrapper-->
+        </aside>
+        <header>
+            <div class="moblie-links-wrapper">
+                <a href="#home"><span class="individual-letter">M</span>arc</a>
+                <button type="button" class="mobile-toggle" data-toggle-area="collapse" data-target-area="#mobile-navbar" aria-expanded="false">
+                    <span class="icon-area">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </span>
+                </button>
+                <div class="nav-menu-wrapper collapse" id="mobile-navbar">
+                    <nav id="mobile-nav">
+                        <ul class="mobile-nav-menu">
+                            <li><a href="#home" class="mobile-links">Home</a></li>
+                            <li><a href="#about" class="mobile-links">About</a></li>
+                            <li><a href="#portfolio" class="mobile-links">Portfolio</a></li>
+                            <li><a href="#contact" class="mobile-links">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="hero-banner" id="home">
+                <div class="container-fluid">
+                    <div class="row">
+                        <section id="introduction">
+                            <h1>Marc Seide</h1>
+                            <h2><span class="individual-letter">W</span>eb Designer / <span
+                                    class="individual-letter">F</span>ront End Web Developer</h2>
+                            <p>Welcome to my portfolio website! Please take a look at the projects I have worked on and
+                                built, discover more about me, and explore them through the screenshots on this page.
+                            </p>
+                            <a href="#about" class="btn btn-default see-btn" role="button">See More</a>
+                        </section>
+                        <picture class="img-wrapper">
+                            <img src="https://lh3.googleusercontent.com/pw/AP1GczNUkiaU9vU7KPJbB_svUbcn4ZC7V0u7oKkVLXDdqNhTH1pHeOzpm-_pnlVtBPUVgsrJ7j8AEhLyECo0H9IclZsLLua0dVblU_-113W1eACjW7MY3qjKiq0Qtjig4Qq1hWRyOVnSkqiKwFyTrmfZ_TD-_Q=w1006-h1508-s-no-gm?authuser=0" alt="" class="img-responsive">
+                        </picture>
+                    </div><!--end hero-row-->
+                </div><!--end container-fluid-->
+            </div><!--end hero-banner-->
+        </header>
+        <main id="port-main-content-wrapper">
+            <div class="container-fluid block" id="about">
+                <div class="row">
+                    <div class="fluid-content-wrapper animated">
+                        <section class="port-content">
+                            <h2>About Me</h2>
+                            <p class="intro-text">A skilled web designer with over five years of experience driven by a passion for
+                                creating visually captivating websites.
+                                Proven track record in spearheading projects from concept to deployment and fostering
+                                cross-functional collaboration to
+                                deliver exceptional web content.</p>
+                            <div class="info-wrapper">
+                                <div class="col-fluid">
+                                    <h3>Information</h3>
+                                    <ul class="about-info-list">
+                                        <li><i class="fa-solid fa-location-dot"></i> <strong>Location:</strong> Philadelphia, PA</li>
+                                        <li><i class="fa-solid fa-graduation-cap"></i> <strong>Degree:</strong> B.A. - Mass Communications | University of South
+                                            Florida | <strong>08/2010 - 12/2013</strong></li>
+                                        <li><i class="fa-solid fa-square-envelope"></i> <strong>Email:</strong> <a href="mailto:mseide22@gmail.com" class="content-link">mseide22@gmail.com</a></li>
+                                    </ul>
+                                </div><!--end col-fluid-->
+                                <div class="col-fluid">
+                                  <h3>Skills</h3>
+                                    <div class="skills-wrapper">
+                                        <div class="skills-item">
+                                            <h4>HTML</h4>
+                                            <div class="progress"></div>
+                                            <div class="progress-bar"></div>
+                                            <div class="skill-percentage">90%</div>
+                                        </div>
+                                        <div class="skills-item">
+                                            <h4>CSS</h4>
+                                            <div class="progress"></div>
+                                            <div class="progress-bar"></div>
+                                            <div class="skill-percentage">75%</div>
+                                        </div>
+                                        <div class="skills-item">
+                                            <h4>JavaScript</h4>
+                                            <div class="progress"></div>
+                                            <div class="progress-bar"></div>
+                                            <div class="skill-percentage">40%</div>
+                                        </div>
+                                        <div class="skills-item">
+                                            <h4>Responsive Design</h4>
+                                            <div class="progress"></div>
+                                            <div class="progress-bar"></div>
+                                            <div class="skill-percentage">70%</div>
+                                        </div><!--end skills-item-->
+                                    </div>
+                                </div><!--end col-fluid-->
+                            </div><!--end info-wrapper-->
+                            <div class="button-wrapper">
+                                <a href="" class="btn btn-primary" role="button">Download Resume</a>
+                                <a href="" class="btn btn-primary" role="button">Contact Me</a>
+                            </div><!--end button-wrapper-->
+                            <div class="info-wrapper">
+                                <div class="col-fluid">
+                                    <h3>Experience</h3>
+                                    <div class="timeline-section-wrapper">
+                                        <div class="timeline">
+                                            <div class="timeline-item">
+                                                <div class="round-circle"></div>
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                <span class="timeline-dates">03/2017 - Present</span>
+                                                <h4 class="company-title">ConnectWise</h4>
+                                                <p class="job-title">Web Designer</p>                                                
+                                                <ul class="job-info">
+                                                    <li>Design and develop over 10 unique web pages utilizing HTML, CSS, and JavaScript languages that currently support
+                                                        over 40k partners in 137 countries and their customer bases of 1.5 million.</li>
+                                                    <li>Collaborate cross-functionally with other teams and departments within the organization on various web projects
+                                                        from conception to launch.</li>
+                                                    <li>Create responsive web designs that optimize user experience across various devices and screen sizes.</li>
+                                                    <li>Led a successful Lean Methodology project focused on streamlining the web design process, resulting in a notable
+                                                        reduction in project completion time.</li>
+                                                </ul>
+                                            </div><!--end timeline-item-->
+                                            <div class="timeline-item">
+                                                <div class="round-circle"></div>
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                <span class="timeline-dates">03/2016 - 03/2017</span>
+                                                <h4 class="company-title">Braille Works</h4>
+                                                <p class="job-title">Proofreader</p>                                                
+                                                <ul class="job-info">
+                                                    <li>Collaborated with a formatter to ensure the content was accurate and adhered to proper grammar.</li>
+                                                    <li>Reviewed and refined content to identify and rectify errors prior to completing assigned tasks./li>
+                                                    <li>Conducted meticulous proofreading, correcting grammatical and spelling errors across various documents
+                                                        including restaurant menus and insurance forms.</li>
+                                                    <li>Transformed an average of two to three documents per week into large print, braille, or audio formats to enhance
+                                                        accessibility.</li>
+                                                </ul>
+                                            </div><!--end timeline-item-->  
+                                            <div class="timeline-item">
+                                                <div class="round-circle"></div>
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                <span class="timeline-dates">02/2014 - 08/2014</span>
+                                                <h4 class="company-title">Bisk</h4>
+                                                <p class="job-title">SEO Link Builder Intern</p>
+                                                <ul class="job-info">
+                                                    <li>Strategized, coordinated, and implemented outreach strategies alongside SEO Specialists to enhance the visibility of
+                                                        our online education programs.</li>
+                                                    <li>Cultivated partnerships with over 15 websites and blogs weekly, leveraging email communication to showcase the
+                                                        company's programs.</li>
+                                                    <li>Procured valuable resources to bolster the visibility and credibility of our online programs through strategic link
+                                                        acquisition.</li>                                                    
+                                                </ul>
+                                            </div><!--end timeline-item-->
+                                        </div><!--end timeline-->
+                                    </div><!--end timeline-section-wrapper-->
+                                </div><!--end col-->
+                                <div class="col-fluid">
+                                    <h3>Certifications</h3>
+                                    <div class="timeline-section-wrapper">
+                                        <div class="timeline">
+                                            <div class="timeline-item">
+                                                <div class="round-circle"></div>
+                                                <h4>Certified Lean Professional</h4>
+                                                <ul class="certification-info">
+                                                    <li>University at Buffalo School of Engineering and Applied Sciences</li>
+                                                    <li>December 2021</li>
+                                                </ul><!--end certification-info-->
+                                            </div><!--end timeline-item-->
+                                            <div class="timeline-item">
+                                                <div class="round-circle"></div>
+                                                <h4>Diversity, Equity and Inclusion in the Workplace Certificate</h4>
+                                                <ul class="certification-info">
+                                                    <li>USF Office of Coporate Training and Professional Education</li>
+                                                    <li>May 2021</li>
+                                                </ul><!--end certification-info-->
+                                            </div><!--end timeline-item-->
+                                            <div class="timeline-item">
+                                                <div class="round-circle"></div>
+                                                <h4>Cybersecurity Fundamentals for Engineers</h4>
+                                                <ul class="certification-info">
+                                                    <li>ConnectWise</li>
+                                                    <li>June 2020</li>
+                                                </ul>
+                                            </div>
+                                        </div><!--end timeline-->
+                                    </div><!--end timeline-section-wrapper-->
+                                </div><!--end col-->
+                            </div>
+                        </section>
+                    </div><!--end fluid-content-wrapper-->
+                </div><!--end ros-->
+            </div><!--end container-fluidblock-->
+            <div class="container-fluid block" id="portfolio">
+                <div class="row">
+                    <div class="fluid-content-wrapper animated">
+                        <section class="port-content">
+                            <h2>Portfolio</h2>
+                            <div class="portfolio-content-wrapper">
+                                <div class="portfolio-item-area">
+                                    <div class="card">
+                                        <picture class="img-wrapper">
+                                            <img src="" alt="">
+                                        </picture>
+                                        <article class="porfolio-text-wrapper">
+                                            <h3>The Future of Good BMS</h3>
+                                            <a href="#" class="btn btn-primary portfolio-btn" role="button">View Here</a>
+                                        </article>
+                                    </div><!--end card-->                                    
+                                </div><!--end portfolio-item-area-->
+
+                                <div class="portfolio-item-area">
+                                    <div class="card">
+                                        <picture class="img-wrapper">
+                                            <img src="" alt="">
+                                        </picture>
+                                        <article class="portfolio-text-wrapper">
+                                            <h3>Security Journey</h3>
+                                            <a href="" class="btn btn-primary portfolio-btn" role="button">View More</a>
+                                        </article>
+                                    </div><!--end card-->                                    
+                                </div><!--end portfolio-item-area-->
+                                
+                                <div class="portfolio-item-area">
+                                    <div class="card">
+                                        <picture class="img-wrapper">
+                                            <img src="" alt="">
+                                        </picture>
+                                        <article class="portfolio-text-wrapper">
+                                            <h3>ConnectWise Certify PSA Certifications</h3>
+                                            <a href="" class="btn btn-primary portfolio-btn" role="button">View More</a>
+                                        </article>
+                                    </div><!--end card-->                                    
+                                </div><!--end portfolio-item-area-->
+
+                                <div class="portfolio-item-area">
+                                    <div class="card">
+                                        <picture class="img-wrapper">
+                                            <img src="" alt="">
+                                        </picture>
+                                        <article class="portfolio-text-wrapper">
+                                            <h3>PSA Blueprint Library</h3>
+                                            <a href="" class="btn btn-primary portfolio-btn" role="button">View More</a>
+                                        </article>
+                                    </div><!--end card-->                                    
+                                </div><!--end portfolio-item-area-->
+                                
+                                <div class="portfolio-item-area">
+                                    <div class="card">
+                                        <picture class="img-wrapper">
+                                            <img src="" alt="">
+                                        </picture>
+                                        <article class="portfolio-text-wrapper">
+                                            <h3>Security Roles Prototype</h3>
+                                            <a href="" class="btn btn-primary portfolio-btn" role="button">View More</a>
+                                        </article>
+                                    </div><!--end card-->                                    
+                                </div><!--end portfolio-item-area-->
+                            </div><!--end portfolio-content-wrapper-->                            
+                        </section>
+                    </div><!--end fluid-content-wrapper-->
+                </div><!--end row-->
+            </div><!--end block-->
+            <div class="container-fluid block" id="contact">
+                <div class="row">
+                    <div class="fluid-content-wrapper">
+                        <section class="port-content">
+                            <h2>Contact</h2>
+                            <h3>Have a question for me?</h3>
+                            <p>Fill out the form below to get in touch with me.</p>
+                            <div class="contact-info-wrapper">
+                                <div class="row contact-row">
+                                    <div class="col-fluid">
+                                        <div class="icon-wrapper">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                        <p><a href="mailto:mseide22@gmail.com" class="inline-link contact-info">mseide22@gmail.com</a></p>
+                                    </div>
+                                </div>
+                            </div><!--end contact-info-wrapper-->
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="fluid-content-wrapper">
+                        <p>&copy; 2024 Designed by Marc Seide</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div><!--end port-gloabl-contnet-wrapper-->
+    
+   
+   
+</body>
+
+</html>
